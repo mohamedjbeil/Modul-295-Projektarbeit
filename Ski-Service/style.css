@@ -1,0 +1,183 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif; /* Setzt die Schriftart auf Arial oder eine serifenlose Schrift */
+  line-height: 1.6; /* Zeilenhöhe für bessere Lesbarkeit */
+  margin: 0; /* Entfernt den Standardabstand des Browsers */
+  padding: 0; /* Entfernt den Standardabstand des Browsers */
+  color: #fff; /* Setzt die Textfarbe auf Weiß */
+  background: #333; /* Hintergrundfarbe für den Fall, dass das Video nicht geladen wird */
+}
+
+/* Hero Section with Video Background */
+.hero {
+  position: relative; /* Ermöglicht die Positionierung des Videos im Hintergrund */
+  height: 80vh; /* Setzt die Höhe der Hero-Section auf 80% der Bildschirmhöhe */
+  overflow: hidden; /* Verhindert, dass der Inhalt aus dem Bereich herausragt */
+}
+
+.background-video {
+  position: absolute; /* Das Video wird absolut positioniert, um den gesamten Bereich zu füllen */
+  top: 0; /* Setzt den oberen Abstand auf 0, um oben zu beginnen */
+  left: 0; /* Setzt den linken Abstand auf 0, um links zu beginnen */
+  width: 100%; /* Breite des Videos auf 100% des Containers */
+  height: 100%; /* Höhe des Videos auf 100% des Containers */
+  z-index: 1; /* Setzt die Schicht des Videos hinter den Text */
+}
+
+.background-video video {
+  width: 100%; /* Das Video füllt die gesamte Breite des Containers */
+  height: 100%; /* Das Video füllt die gesamte Höhe des Containers */
+  object-fit: cover; /* Stellt sicher, dass das Video das Containerverhältnis beibehält und ihn vollständig abdeckt */
+}
+
+.hero-text {
+  position: relative; /* Text wird relativ positioniert, um ihn über das Video zu legen */
+  z-index: 2; /* Text wird vor dem Video angezeigt */
+  text-align: center; /* Zentriert den Text */
+  margin-top: 20%; /* Platzierung des Textes etwa 20% von oben */
+  font-size: 2rem; /* Setzt die Schriftgröße des Textes */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Fügt dem Text einen Schatten hinzu, damit er besser sichtbar ist */
+}
+
+/* Offer Section */
+.offer {
+  padding: 2rem; /* Fügt der "Angebots"-Sektion einen Abstand von 2rem hinzu */
+  background: #444; /* Setzt den Hintergrund auf ein dunkles Grau */
+  color: #fff; /* Textfarbe auf Weiß setzen */
+  text-align: center; /* Zentriert den Text */
+}
+
+.offer ul {
+  list-style: none; /* Entfernt die Aufzählungszeichen der Liste */
+  padding: 0; /* Entfernt den Standardabstand der Liste */
+}
+
+.offer ul li {
+  padding: 0.5rem; /* Fügt jedem Listenelement 0.5rem Abstand hinzu */
+}
+
+.offer ul li a {
+  color: #fff; /* Setzt die Linkfarbe in der Angebotsliste auf Weiß */
+  text-decoration: none; /* Entfernt die Unterstreichung der Links */
+  font-weight: bold; /* Macht die Links fett */
+}
+
+.offer ul li a:hover {
+  color: #007bff; /* Ändert die Farbe des Links bei Hover auf Blau */
+}
+
+/* Form Section */
+.form {
+  margin: 2rem auto; /* Setzt den oberen und unteren Abstand auf 2rem, zentriert das Formular */
+  padding: 1.5rem; /* Fügt dem Formular 1.5rem Abstand hinzu */
+  width: 90%; /* Formularbreite auf 90% des Containers setzen */
+  max-width: 600px; /* Maximale Breite des Formulars auf 600px setzen */
+  background: rgba(0, 0, 0, 0.8); /* Setzt den Hintergrund des Formulars auf halbtransparentes Schwarz */
+  color: #fff; /* Textfarbe auf Weiß setzen */
+  border-radius: 10px; /* Ecken des Formulars abrunden */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Fügt einen Schatten um das Formular hinzu */
+}
+
+.form label {
+  display: block; /* Setzt das Label als Block-Element, um es über dem Eingabefeld anzuzeigen */
+  margin: 0.5rem 0 0.2rem; /* Fügt einen Abstand von 0.5rem nach oben und 0.2rem nach unten hinzu */
+  font-weight: bold; /* Setzt das Label auf fett */
+}
+
+.form input,
+.form select,
+.form button,
+.form textarea {
+  width: 100%; /* Setzt die Breite der Eingabefelder und Buttons auf 100% */
+  padding: 0.7rem; /* Fügt allen Feldern ein Polster von 0.7rem hinzu */
+  margin-bottom: 1rem; /* Fügt einen Abstand nach unten hinzu */
+  border: none; /* Entfernt den Rand der Felder */
+  border-radius: 5px; /* Abrundung der Ecken */
+  font-size: 1rem; /* Setzt die Schriftgröße der Felder */
+}
+
+.form input[readonly] {
+  background: #444; /* Setzt einen dunklen Hintergrund für schreibgeschützte Felder */
+  color: #fff; /* Textfarbe für schreibgeschützte Felder */
+}
+
+.form button {
+  background-color: #007bff; /* Setzt die Hintergrundfarbe des Buttons auf Blau */
+  color: #fff; /* Textfarbe des Buttons auf Weiß setzen */
+  cursor: pointer; /* Setzt den Cursor auf Zeiger, wenn man über den Button fährt */
+  font-weight: bold; /* Buttontext fett machen */
+  transition: background-color 0.3s ease; /* Weichere Übergänge für den Hintergrund */
+}
+
+.form button:hover {
+  background-color: #0056b3; /* Hintergrundfarbe des Buttons ändern, wenn der Benutzer mit der Maus darüber fährt */
+}
+
+.form .status-message {
+  text-align: center; /* Zentriert die Statusmeldung */
+  font-size: 0.9rem; /* Schriftgröße der Statusmeldung */
+  margin-top: 1rem; /* Abstand über der Statusmeldung */
+}
+
+/* Footer Styling */
+footer {
+  text-align: center; /* Zentriert den Text im Footer */
+  padding: 1rem; /* Fügt dem Footer einen Abstand von 1rem hinzu */
+  background: rgba(0, 0, 0, 0.7); /* Setzt den Hintergrund des Footers auf halbtransparentes Schwarz */
+  color: white; /* Textfarbe im Footer auf Weiß setzen */
+}
+
+/* Navigation Styling */
+.navbar-light .navbar-nav .nav-link {
+  color: #333; /* Setzt die Textfarbe der Links auf Dunkelgrau */
+  font-weight: bold; /* Macht den Text der Links fett */
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #007bff; /* Setzt die Textfarbe der Links auf Blau, wenn man mit der Maus darüber fährt oder der Link aktiv ist */
+}
+
+.btn-primary.nav-link {
+  padding: 0.5rem 1rem; /* Fügt dem Link ein Polster hinzu */
+  border-radius: 5px; /* Rundet die Ecken des Links ab */
+  font-weight: bold; /* Setzt den Text des Links auf fett */
+}
+
+/* Gleichmäßige Größe für Dienstleistungsbilder */
+.card-img-top {
+  height: 200px; /* Einheitliche Höhe */
+  object-fit: cover; /* Bild zuschneiden, um es einzupassen */
+  width: 100%; /* Volle Breite der Karte */
+}
+
+/* Einheitliche Größe für Dienstleistungsbilder */
+.card-img-top {
+  height: 200px; /* Einheitliche Höhe */
+  object-fit: cover; /* Bild zuschneiden, um es anzupassen */
+  width: 100%; /* Volle Breite der Karte */
+}
+
+/* Einheitliche Größe für Dienstleistungsbilder */
+.service-image {
+  height: 300px; /* Einheitliche Höhe für Dienstleistungsbilder */
+  object-fit: cover; /* Bild zuschneiden, um es einzupassen */
+  width: 100%; /* Volle Breite des Containers */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    text-align: center; /* Setzt die Links auf zentrierten Text bei mobilen Geräten */
+  }
+
+  .hero-text {
+    margin-top: 40%; /* Passt den Abstand oben für den Text bei kleineren Bildschirmen an */
+    font-size: 1.5rem; /* Reduziert die Schriftgröße des Textes */
+  }
+
+  .offer ul li {
+    font-size: 1rem; /* Setzt die Schriftgröße der Listenelemente bei kleineren Bildschirmen */
+  }
+}
+  
