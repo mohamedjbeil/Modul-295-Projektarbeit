@@ -9,7 +9,7 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
-const RegistrationRouter = require("./routes/registration.route");
+const regristrationController = require("../JetstreamAPI/Controller/registrationController.cs");
 
 // Swagger
 const swaggerUi = require("swagger-ui-express"),
@@ -36,7 +36,7 @@ app.get("/", (req, res) => {
 });
 
 /* Telling the application to use the ActivityRouter for any requests that start with "/api". */
-app.use("/api", RegistrationRouter);
+app.use("/api", registrationController);
 
 // Swagger
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));

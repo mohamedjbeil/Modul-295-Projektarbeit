@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohamed Gebeili\\Downloads\\Modul 294 Projektarbeit\\Ski-Service\\JetstreamAPI\\JetstreamAPI.csproj": {}
+    "C:\\Users\\Mohamed Gebeili\\Downloads\\Modul 294 Projektarbeit\\Ski-service\\JetstreamAPI\\JetstreamAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohamed Gebeili\\Downloads\\Modul 294 Projektarbeit\\Ski-Service\\JetstreamAPI\\JetstreamAPI.csproj": {
+    "C:\\Users\\Mohamed Gebeili\\Downloads\\Modul 294 Projektarbeit\\Ski-service\\JetstreamAPI\\JetstreamAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohamed Gebeili\\Downloads\\Modul 294 Projektarbeit\\Ski-Service\\JetstreamAPI\\JetstreamAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Mohamed Gebeili\\Downloads\\Modul 294 Projektarbeit\\Ski-service\\JetstreamAPI\\JetstreamAPI.csproj",
         "projectName": "JetstreamAPI",
-        "projectPath": "C:\\Users\\Mohamed Gebeili\\Downloads\\Modul 294 Projektarbeit\\Ski-Service\\JetstreamAPI\\JetstreamAPI.csproj",
+        "projectPath": "C:\\Users\\Mohamed Gebeili\\Downloads\\Modul 294 Projektarbeit\\Ski-service\\JetstreamAPI\\JetstreamAPI.csproj",
         "packagesPath": "C:\\Users\\Mohamed Gebeili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohamed Gebeili\\Downloads\\Modul 294 Projektarbeit\\Ski-Service\\JetstreamAPI\\obj\\",
+        "outputPath": "C:\\Users\\Mohamed Gebeili\\Downloads\\Modul 294 Projektarbeit\\Ski-service\\JetstreamAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "skxAUF2fzQ8=",
+  "dgSpecHash": "EqOpBkmH85k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mohamed Gebeili\\Downloads\\Modul 294 Projektarbeit\\Ski-Service\\JetstreamAPI\\JetstreamAPI.csproj",
+  "projectFilePath": "C:\\Users\\Mohamed Gebeili\\Downloads\\Modul 294 Projektarbeit\\Ski-service\\JetstreamAPI\\JetstreamAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohamed Gebeili\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Mohamed Gebeili\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

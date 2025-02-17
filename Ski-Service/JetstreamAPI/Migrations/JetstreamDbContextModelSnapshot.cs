@@ -60,7 +60,7 @@ namespace JetstreamAPI.Migrations
 
                     b.HasIndex("ServiceID");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("JetstreamAPI.Models.Service", b =>
@@ -77,7 +77,7 @@ namespace JetstreamAPI.Migrations
 
                     b.HasKey("ServiceID");
 
-                    b.ToTable("Services");
+                    b.ToTable("Services", (string)null);
                 });
 
             modelBuilder.Entity("JetstreamAPI.Models.User", b =>
