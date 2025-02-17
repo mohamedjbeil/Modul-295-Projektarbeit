@@ -4,7 +4,7 @@ const {
   getRegistrations,
   addRegistration,
   deleteRegistration,
-} = require("../controllers/registration.controller");
+} = require("../../JetstreamAPI/Controller/registration.controller");
 
 const router = express.Router();
 
